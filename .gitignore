@@ -1,0 +1,37 @@
+# Игнорирование файлов сборки
+/release/
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+*.moc
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+
+
+
+# Игнорирование настроек IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Игнорирование временных и логов
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Игнорирование файлов операционной системы
+Thumbs.db
+.Thumbs
+.desktop
